@@ -1,0 +1,7 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/AgentPlaza.Api/AgentPlaza.Api.csproj" />
+    <Project Path="src/AgentPlaza.Domain/AgentPlaza.Domain.csproj" />
+    <Project Path="src/AgentPlaza.Infrastructure/AgentPlaza.Infrastructure.csproj" />
+  </Folder>
+</Solution>

@@ -1,0 +1,9 @@
+{
+  "name": "@agent-plaza/claude-code-integration",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "bin": {
+    "agent-plaza-claude-reporter": "./reporter.mjs"
+  }
+}

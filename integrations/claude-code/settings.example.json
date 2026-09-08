@@ -1,0 +1,11 @@
+{
+  "hooks": {
+    "SessionStart": [{ "hooks": [{ "type": "command", "command": "node /absolute/path/to/agent-plaza/integrations/claude-code/reporter.mjs" }] }],
+    "UserPromptSubmit": [{ "hooks": [{ "type": "command", "command": "node /absolute/path/to/agent-plaza/integrations/claude-code/reporter.mjs" }] }],
+    "PreToolUse": [{ "matcher": "*", "hooks": [{ "type": "command", "command": "node /absolute/path/to/agent-plaza/integrations/claude-code/reporter.mjs" }] }],
+    "PostToolUse": [{ "matcher": "*", "hooks": [{ "type": "command", "command": "node /absolute/path/to/agent-plaza/integrations/claude-code/reporter.mjs" }] }],
+    "PostToolUseFailure": [{ "matcher": "*", "hooks": [{ "type": "command", "command": "node /absolute/path/to/agent-plaza/integrations/claude-code/reporter.mjs" }] }],
+    "Stop": [{ "hooks": [{ "type": "command", "command": "node /absolute/path/to/agent-plaza/integrations/claude-code/reporter.mjs" }] }],
+    "SessionEnd": [{ "hooks": [{ "type": "command", "command": "node /absolute/path/to/agent-plaza/integrations/claude-code/reporter.mjs" }] }]
+  }
+}
